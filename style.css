@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Elemets */
+.navbar{
+    background-color: #131313;
+    padding: 1rem 8rem;
+    z-index: 2;
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 10px;
+    font-size: 1.5rem;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+    padding: 0 1rem;
+}
+.btn-outline-success{
+    font-weight: 400;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+/* Home Elements */
+
+.backGround{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.backGround video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.intro{
+    color: #fff;
+    position: relative;
+    padding-top: 1rem;
+    
+}
+.intro h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+.intro p{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+}
+.intro_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.home_icon{
+    margin: 2rem auto;
+}
+
+.home_button{
+    margin: 1rem;
+}
+
+/* About Me section*/
+.about-me{
+    background-color: #000;
+    margin: 0;
+}
+
+.about-col{
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 500px; 
+}
+.about-col h2,h1{
+    letter-spacing: 2px;
+    padding-bottom: 1rem;
+
+}
+.about-col p{
+    text-align: left;
+}
+
+/* My Skills Section */
+.myskills{
+    background-color: #fff;
+    margin: 0;
+}
+
+.myskills h1{
+    letter-spacing: 2px;
+    padding-bottom: 1rem;
+    font-weight: 800;
+}
+.skill-icon{
+    text-align: center;
+}
+.test{
+    width: 50%;
+}
+
+.footer-section{
+    color: #000;
+}
+
+/* For skills images */
+
+@media(max-width:774px){
+    .skill-icon{
+        width: 75px;
+    }
+}
